@@ -1,7 +1,7 @@
 {
-  "name": "@waline/emojis",
-  "version": "1.4.0",
-  "description": "Emojis for Waline",
+  "name": "@walineqaq/emojis",
+  "version": "1.0.0",
+  "description": "Emojis for WalineQAQ which is forked form official emojis repo",
   "keywords": [
     "waline",
     "comment",
@@ -12,18 +12,18 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/walinejs/waline/issues"
+    "url": "https://github.com/ljxme/walineqaq/issues"
   },
-  "homepage": "https://waline.js.org",
+  "homepage": "https://blog.ljx.icu",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/walinejs/emojis.git"
+    "url": "git+https://github.com/ljxme/walineqaq.git"
   },
   "license": "GPL-3.0-or-later",
   "author": {
-    "name": "Mr.Hope",
-    "email": "mister-hope@outlook.com",
-    "url": "https://mrhope.site"
+    "name": "Ljx",
+    "email": "artemisia666@foxmail.com",
+    "url": "https://blog.ljx.icu"
   },
   "publishConfig": {
     "access": "public"
