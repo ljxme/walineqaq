@@ -1,0 +1,39 @@
+name: Release NPM Package
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - name: Check if version has changed
+        id: version_check
+        run: |
+          current_version=$(node -p "require('./package.json').version")
+          latest_version=$(npm show @ljxme/walineqaq version)
+          echo "Current version: $current_version"
+          echo "Latest version on npm: $latest_version"
+          if [ "$current_version" == "$latest_version" ]; then
+            echo "No version change, skipping release"
+            echo "skip_release=true" >> $GITHUB_ENV
+          else
+            echo "Version has changed, proceeding with release"
+          fi
+
+      - name: Publish to npm
+        if: env.skip_release != 'true'
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
