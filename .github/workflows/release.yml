@@ -11,7 +11,9 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
-
+    env:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+    
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -34,9 +36,11 @@ jobs:
           else
             echo "Version has changed, proceeding with release"
           fi
+          
+      - name: Set up npm
+        run: |
+          echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
 
       - name: Publish to npm
         if: env.skip_release != 'true'
         run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
