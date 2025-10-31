@@ -37,6 +37,6 @@ jobs:
 
       - name: Publish to npm
         if: env.skip_release != 'true'
-        run: npm publish --access public
-        # env:
-          # NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
