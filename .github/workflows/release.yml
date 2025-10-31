@@ -4,7 +4,9 @@ on:
   workflow_run:
       workflows: ["Generate Emoji Info"]
       types:
-        - success
+        - completed
+      branches:
+        - main
 
 jobs:
   release:
