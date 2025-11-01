@@ -7,6 +7,7 @@ on:
         - completed
       branches:
         - main
+      workflow_dispatch:
 
 jobs:
   release:
@@ -36,11 +37,13 @@ jobs:
           else
             echo "Version has changed, proceeding with release"
           fi
-          
+
       - name: Set up npm
         run: |
           echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
-
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          
       - name: Publish to npm
         if: env.skip_release != 'true'
         run: npm publish
