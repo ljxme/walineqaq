@@ -1,5 +1,6 @@
-# Waline Emojis
-
+# WalineQAQ Emojis
+>此仓库为 WalineQAQ 的 Emoji 预设仓库。Fork自 Waline 官方的表情仓库
+>
 > Please open issues and discussion in [main repo](https://github.com/lizheming/waline)
 >
 > 请在 [主仓库](https://github.com/lizheming/waline) 提交 Bug 或进行讨论。
@@ -14,146 +15,34 @@ You can use set `emojis` options with an array containing following links
 
 ## Available Emojis / 可用的 Emoji
 
-- Alus
-
-  ```
-  https://unpkg.com/@waline/emojis@1.4.0/alus
-  ```
-
-- Bilibili
-
-  ```
-  https://unpkg.com/@waline/emojis@1.4.0/bilibili
-  ```
-
-- Bilibili Yellow face
+- Bilibili Yellow face（哔哩哔哩黄豆表情）
 
   ```  
-  https://unpkg.com/@waline/emojis@1.4.0/bmoji
+  https://unpkg.com/@ljxme/walineqaq@1.1.1/bmoji
   ```
 
-- Coolapk
+- HeyBoxCube（小黑盒方块表情）
 
-  - Emoji:
-
-    ```
-    https://unpkg.com/@waline/emojis@1.4.0/coolapk
-    ```
-  - Coin:
-
-    ```
-    https://unpkg.com/@waline/emojis@1.4.0/coolapk_coin
-    ```
-
-- Hoyoverse
-
-  - Honkai Impact 3rd
-
-    ```
-    https://unpkg.com/@waline/emojis@1.4.0/hoyoverse-hi3
-    ```
-
-- QQ
-
-  ```
-  https://unpkg.com/@waline/emojis@1.4.0/qq
+  ```  
+  https://unpkg.com/@ljxme/walineqaq@1.1.1/heybox_cube
   ```
 
-- Tieba
+- HeyBoxHeniang（小黑盒盒娘表情）
+
+  ```  
+  https://unpkg.com/@ljxme/walineqaq@1.1.1/heybox_heniang
+  ```
+
+- ljxme（Q版自画像表情）
+
+  ```  
+  https://unpkg.com/@ljxme/walineqaq@1.1.1/ljxme
+  ```
+
+- Tieba（贴吧表情）
 
   ```
-  https://unpkg.com/@waline/emojis@1.4.0/tieba
-  ```
-
-- Twemoji
-
-  - Emoji:
-
-    ```
-    https://unpkg.com/@waline/emojis@1.4.0/tw-emoji
-    ```
-
-  <details>
-  <summary>Others</summary>
-
-  - Full: (Not recommand)
-
-    ```
-    https://unpkg.com/@waline/emojis@1.4.0/tw
-    ```
-
-  - People:
-
-    ```
-    https://unpkg.com/@waline/emojis@1.4.0/tw-people
-    ```
-
-  - Body:
-
-    ```
-    https://unpkg.com/@waline/emojis@1.4.0/tw-body
-    ```
-
-  - Flag:
-
-    ```
-    https://unpkg.com/@waline/emojis@1.4.0/tw-flag
-    ```
-
-  - Food:
-
-    ```
-    https://unpkg.com/@waline/emojis@1.4.0/tw-food
-    ```
-
-  - Natural:
-
-    ```
-    https://unpkg.com/@waline/emojis@1.4.0/tw-natural
-    ```
-
-  - Object:
-
-    ```
-    https://unpkg.com/@waline/emojis@1.4.0/tw-object
-    ```
-
-  - Sport:
-
-    ```
-    https://unpkg.com/@waline/emojis@1.4.0/tw-sport
-    ```
-
-  - Symbol:
-
-    ```
-    https://unpkg.com/@waline/emojis@1.4.0/tw-symbol
-    ```
-
-  - Time:
-
-    ```
-    https://unpkg.com/@waline/emojis@1.4.0/tw-time
-    ```
-
-  - Travel:
-
-    ```
-    https://unpkg.com/@waline/emojis@1.4.0/tw-travel
-    ```
-
-  - Weather:
-
-    ```
-    https://unpkg.com/@waline/emojis@1.4.0/tw-weather
-    ```
-
-  </details>
-
-- Weibo
-
-  ```
-  https://unpkg.com/@waline/emojis@1.4.0/weibo
+  https://unpkg.com/@ljxme/walineqaq@1.1.1/tieba  
   ```
 
 ## Thanks / 感谢
