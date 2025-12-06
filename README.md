@@ -1,4 +1,5 @@
 # WalineQAQ Emojis
+
 >此仓库为 WalineQAQ 的 Emoji 预设仓库。Fork自 Waline 官方的表情仓库
 >
 > Please open issues and discussion in [main repo](https://github.com/lizheming/waline)
@@ -18,31 +19,31 @@ You can use set `emojis` options with an array containing following links
 - Bilibili Yellow face（哔哩哔哩黄豆表情）
 
   ```  
-  https://unpkg.com/@ljxme/walineqaq@1.1.1/bmoji
+  https://unpkg.com/@ljxme/walineqaq@latest/bmoji
   ```
 
 - HeyBoxCube（小黑盒方块表情）
 
   ```  
-  https://unpkg.com/@ljxme/walineqaq@1.1.1/heybox_cube
+  https://unpkg.com/@ljxme/walineqaq@latest/heybox_cube
   ```
 
 - HeyBoxHeniang（小黑盒盒娘表情）
 
   ```  
-  https://unpkg.com/@ljxme/walineqaq@1.1.1/heybox_heniang
+  https://unpkg.com/@ljxme/walineqaq@latest/heybox_heniang
   ```
 
 - ljxme（Q版自画像表情）
 
   ```  
-  https://unpkg.com/@ljxme/walineqaq@1.1.1/ljxme
+  https://unpkg.com/@ljxme/walineqaq@latest/ljxme
   ```
 
 - Tieba（贴吧表情）
 
   ```
-  https://unpkg.com/@ljxme/walineqaq@1.1.1/tieba  
+  https://unpkg.com/@ljxme/walineqaq@latest/tieba
   ```
 
 ## Thanks / 感谢
