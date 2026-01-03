@@ -1,6 +1,6 @@
 {
   "name": "@ljxme/walineqaq",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Emojis for WalineQAQ which is forked form official emojis repo",
   "keywords": [
     "waline",
@@ -9,12 +9,13 @@
   ],
   "scripts": {
     "build": "node build.js",
+    "createinfo": "node createinfo.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/ljxme/walineqaq/issues"
   },
-  "homepage": "https://blog.ljx.icu",
+  "homepage": "https://github.com/ljxme/walineqaq",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ljxme/walineqaq.git"
@@ -22,7 +23,7 @@
   "license": "GPL-3.0-or-later",
   "author": {
     "name": "Ljx",
-    "email": "artemisia666@foxmail.com",
+    "email": "me@ljx.icu",
     "url": "https://blog.ljx.icu"
   },
   "publishConfig": {
