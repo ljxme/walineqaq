@@ -1,6 +1,6 @@
 # WalineQAQ Emojis
 
->此仓库为 WalineQAQ 的 Emoji 预设仓库。Fork自 Waline 官方的表情仓库
+>此仓库为 WalineQAQ 的 Emoji 预设仓库。Fork 自 Waline 官方的表情仓库
 >
 > Please open issues and discussion in [main repo](https://github.com/lizheming/waline)
 >
